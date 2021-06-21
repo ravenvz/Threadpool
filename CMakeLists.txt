@@ -33,7 +33,7 @@ add_library(${PROJECT_NAME} INTERFACE)
 
 target_compile_features(${PROJECT_NAME} INTERFACE cxx_std_20)
 
-target_compile_options(${PROJECT_NAME} INTERFACE -Wall -Wextra -Wpedantic)
+# target_compile_options(${PROJECT_NAME} INTERFACE -Wall -Wextra -Wpedantic)
 
 # Link dependencies
 target_link_libraries(
